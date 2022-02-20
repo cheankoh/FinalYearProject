@@ -1,0 +1,21 @@
+{
+  "name": "blockchain",
+  "version": "1.0.0",
+  "description": "Ethereum Blockchain Directory of my Final Year Project -- DApp",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "author": "Chean Koh",
+  "license": "ISC",
+  "devDependencies": {
+    "@openzeppelin/contracts": "^4.5.0",
+    "@truffle/hdwallet-provider": "^2.0.3",
+    "axios": "^0.26.0",
+    "ethers": "^5.5.4",
+    "ts-node": "^10.5.0"
+  }
+}
